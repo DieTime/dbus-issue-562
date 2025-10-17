@@ -1,0 +1,1655 @@
+‣ Type=method_call  Endian=l  Flags=0  Version=1 Cookie=1009  Timestamp="Fri 2025-10-17 13:56:33.699535 UTC"
+  Sender=:1.121  Destination=org.freedesktop.DBus  Path=/org/freedesktop/DBus  Interface=org.freedesktop.DBus  Member=ListNames
+  UniqueName=:1.121
+  MESSAGE "" {
+  };
+
+‣ Type=method_return  Endian=l  Flags=1  Version=1 Cookie=1193  ReplyCookie=1009  Timestamp="Fri 2025-10-17 13:56:33.699738 UTC"
+  Sender=org.freedesktop.DBus  Destination=:1.121
+  MESSAGE "as" {
+          ARRAY "s" {
+                  STRING "org.freedesktop.DBus";
+                  STRING ":1.128";
+                  STRING ":1.106";
+                  STRING ":1.7";
+                  STRING ":1.107";
+                  STRING "org.freedesktop.timesync1";
+                  STRING ":1.8";
+                  STRING ":1.207";
+                  STRING "org.freedesktop.NetworkManager.fortisslvpn.Connection_4";
+                  STRING ":1.108";
+                  STRING ":1.9";
+                  STRING ":1.208";
+                  STRING ":1.109";
+                  STRING ":1.209";
+                  STRING "org.freedesktop.systemd1";
+                  STRING "org.freedesktop.ModemManager1";
+                  STRING "org.freedesktop.NetworkManager";
+                  STRING "org.freedesktop.oom1";
+                  STRING "net.hadess.PowerProfiles";
+                  STRING "org.freedesktop.resolve1";
+                  STRING "org.freedesktop.RealtimeKit1";
+                  STRING "org.freedesktop.Accounts";
+                  STRING ":1.80";
+                  STRING ":1.81";
+                  STRING ":1.83";
+                  STRING ":1.192";
+                  STRING ":1.193";
+                  STRING ":1.85";
+                  STRING ":1.194";
+                  STRING "org.freedesktop.PolicyKit1";
+                  STRING ":1.65";
+                  STRING "org.bluez";
+                  STRING ":1.21";
+                  STRING ":1.66";
+                  STRING ":1.22";
+                  STRING ":1.89";
+                  STRING ":1.67";
+                  STRING "org.freedesktop.PackageKit";
+                  STRING ":1.45";
+                  STRING ":1.23";
+                  STRING ":1.154";
+                  STRING ":1.110";
+                  STRING ":1.68";
+                  STRING ":1.46";
+                  STRING "net.hadess.SwitcherooControl";
+                  STRING ":1.210";
+                  STRING ":1.155";
+                  STRING ":1.111";
+                  STRING ":1.112";
+                  STRING ":1.26";
+                  STRING "com.redhat.NewPrinterNotification";
+                  STRING ":1.213";
+                  STRING ":1.114";
+                  STRING ":1.115";
+                  STRING ":1.216";
+                  STRING ":1.117";
+                  STRING "com.redhat.PrinterDriversInstaller";
+                  STRING ":1.118";
+                  STRING ":1.119";
+                  STRING "org.gnome.DisplayManager";
+                  STRING "org.freedesktop.Avahi";
+                  STRING "org.freedesktop.UDisks2";
+                  STRING "fi.w1.wpa_supplicant1";
+                  STRING ":1.91";
+                  STRING "org.freedesktop.fwupd";
+                  STRING ":1.92";
+                  STRING "org.freedesktop.login1";
+                  STRING ":1.93";
+                  STRING "org.freedesktop.ColorManager";
+                  STRING ":1.95";
+                  STRING ":1.73";
+                  STRING ":1.96";
+                  STRING ":1.97";
+                  STRING ":1.75";
+                  STRING ":1.98";
+                  STRING ":1.10";
+                  STRING ":1.32";
+                  STRING ":1.99";
+                  STRING ":1.11";
+                  STRING ":1.120";
+                  STRING ":1.78";
+                  STRING "org.freedesktop.UPower";
+                  STRING ":1.12";
+                  STRING ":1.121";
+                  STRING ":1.79";
+                  STRING ":1.57";
+                  STRING ":1.0";
+                  STRING ":1.13";
+                  STRING ":1.100";
+                  STRING ":1.1";
+                  STRING ":1.2";
+                  STRING ":1.15";
+                  STRING ":1.16";
+                  STRING ":1.103";
+                  STRING ":1.4";
+                  STRING ":1.17";
+                  STRING ":1.104";
+                  STRING ":1.5";
+                  STRING ":1.18";
+                  STRING ":1.127";
+                  STRING ":1.105";
+                  STRING ":1.6";
+          };
+  };
+
+‣ Type=method_call  Endian=l  Flags=0  Version=1 Cookie=1010  Timestamp="Fri 2025-10-17 13:56:33.700792 UTC"
+  Sender=:1.121  Destination=org.freedesktop.DBus  Path=/org/freedesktop/DBus  Interface=org.freedesktop.DBus  Member=ListActivatableNames
+  UniqueName=:1.121
+  MESSAGE "" {
+  };
+
+‣ Type=method_return  Endian=l  Flags=1  Version=1 Cookie=1194  ReplyCookie=1010  Timestamp="Fri 2025-10-17 13:56:33.700824 UTC"
+  Sender=org.freedesktop.DBus  Destination=:1.121
+  MESSAGE "as" {
+          ARRAY "s" {
+                  STRING "org.freedesktop.DBus";
+                  STRING "org.freedesktop.fwupd";
+                  STRING "org.freedesktop.login1";
+                  STRING "org.freedesktop.GeoClue2";
+                  STRING "com.ubuntu.LanguageSelector";
+                  STRING "org.freedesktop.timesync1";
+                  STRING "com.hp.hplip";
+                  STRING "org.freedesktop.Flatpak.SystemHelper";
+                  STRING "org.freedesktop.ColorManager";
+                  STRING "org.freedesktop.systemd1";
+                  STRING "com.ubuntu.SoftwareProperties";
+                  STRING "org.freedesktop.PolicyKit1";
+                  STRING "org.freedesktop.Avahi";
+                  STRING "org.freedesktop.thermald";
+                  STRING "org.freedesktop.ModemManager1";
+                  STRING "io.netplan.Netplan";
+                  STRING "org.freedesktop.hostname1";
+                  STRING "org.freedesktop.nm_priv_helper";
+                  STRING "org.debian.apt";
+                  STRING "org.bluez";
+                  STRING "dev.glazkov.DBusIssue562";
+                  STRING "net.reactivated.Fprint";
+                  STRING "org.freedesktop.PackageKit";
+                  STRING "org.freedesktop.UPower";
+                  STRING "org.freedesktop.UDisks2";
+                  STRING "org.freedesktop.network1";
+                  STRING "net.hadess.PowerProfiles";
+                  STRING "org.freedesktop.oom1";
+                  STRING "com.canonical.UbuntuAdvantage";
+                  STRING "org.freedesktop.resolve1";
+                  STRING "org.freedesktop.bolt";
+                  STRING "org.freedesktop.Accounts";
+                  STRING "org.freedesktop.RealtimeKit1";
+                  STRING "org.freedesktop.timedate1";
+                  STRING "com.ubuntu.WhoopsiePreferences";
+                  STRING "fi.w1.wpa_supplicant1";
+                  STRING "org.freedesktop.nm_dispatcher";
+                  STRING "org.freedesktop.locale1";
+                  STRING "org.opensuse.CupsPkHelper.Mechanism";
+          };
+  };
+
+‣ Type=method_call  Endian=l  Flags=0  Version=1 Cookie=1  Timestamp="Fri 2025-10-17 13:56:37.191522 UTC"
+  Sender=:1.365  Destination=org.freedesktop.DBus  Path=/org/freedesktop/DBus  Interface=org.freedesktop.DBus  Member=Hello
+  UniqueName=:1.365
+  MESSAGE "" {
+  };
+
+‣ Type=method_return  Endian=l  Flags=1  Version=1 Cookie=1  ReplyCookie=1  Timestamp="Fri 2025-10-17 13:56:37.191602 UTC"
+  Sender=org.freedesktop.DBus  Destination=:1.365
+  MESSAGE "s" {
+          STRING ":1.365";
+  };
+
+‣ Type=signal  Endian=l  Flags=1  Version=1 Cookie=310  Timestamp="Fri 2025-10-17 13:56:37.191643 UTC"
+  Sender=org.freedesktop.DBus  Path=/org/freedesktop/DBus  Interface=org.freedesktop.DBus  Member=NameOwnerChanged
+  MESSAGE "sss" {
+          STRING ":1.365";
+          STRING "";
+          STRING ":1.365";
+  };
+
+‣ Type=signal  Endian=l  Flags=1  Version=1 Cookie=2  Timestamp="Fri 2025-10-17 13:56:37.191680 UTC"
+  Sender=org.freedesktop.DBus  Destination=:1.365  Path=/org/freedesktop/DBus  Interface=org.freedesktop.DBus  Member=NameAcquired
+  MESSAGE "s" {
+          STRING ":1.365";
+  };
+
+‣ Type=signal  Endian=l  Flags=1  Version=1 Cookie=398  Timestamp="Fri 2025-10-17 13:56:37.191707 UTC"
+  Sender=org.freedesktop.DBus  Destination=org.freedesktop.systemd1  Path=/org/freedesktop/DBus  Interface=org.freedesktop.systemd1.Activator  Member=ActivationRequest
+  MESSAGE "s" {
+          STRING "dbus-issue-562.service";
+  };
+
+‣ Type=method_call  Endian=l  Flags=5  Version=1 Cookie=2  Timestamp="Fri 2025-10-17 13:56:37.191733 UTC"
+  Sender=:1.365  Destination=dev.glazkov.DBusIssue562  Path=/  Interface=dev.glazkov.DBusIssue562  Member=CallUnknownMethod
+  UniqueName=:1.365
+  MESSAGE "" {
+  };
+
+‣ Type=signal  Endian=l  Flags=1  Version=1 Cookie=5  Timestamp="Fri 2025-10-17 13:56:37.191794 UTC"
+  Sender=org.freedesktop.DBus  Destination=:1.365  Path=/org/freedesktop/DBus  Interface=org.freedesktop.DBus  Member=NameLost
+  MESSAGE "s" {
+          STRING ":1.365";
+  };
+
+‣ Type=signal  Endian=l  Flags=1  Version=1 Cookie=311  Timestamp="Fri 2025-10-17 13:56:37.191832 UTC"
+  Sender=org.freedesktop.DBus  Path=/org/freedesktop/DBus  Interface=org.freedesktop.DBus  Member=NameOwnerChanged
+  MESSAGE "sss" {
+          STRING ":1.365";
+          STRING ":1.365";
+          STRING "";
+  };
+
+‣ Type=method_call  Endian=l  Flags=0  Version=1 Cookie=7276  Timestamp="Fri 2025-10-17 13:56:37.192083 UTC"
+  Sender=:1.11  Destination=org.freedesktop.DBus  Path=/org/freedesktop/DBus  Interface=org.freedesktop.DBus  Member=AddMatch
+  UniqueName=:1.11
+  MESSAGE "s" {
+          STRING "type='signal',sender='org.freedesktop.DBus',path='/org/freedesktop/DBus',interface='org.freedesktop.DBus',member='NameOwnerChanged',arg0='dev.glazkov.DBusIssue562'";
+  };
+
+‣ Type=method_return  Endian=l  Flags=1  Version=1 Cookie=399  ReplyCookie=7276  Timestamp="Fri 2025-10-17 13:56:37.192119 UTC"
+  Sender=org.freedesktop.DBus  Destination=:1.11
+  MESSAGE "" {
+  };
+
+‣ Type=method_call  Endian=l  Flags=0  Version=1 Cookie=7277  Timestamp="Fri 2025-10-17 13:56:37.192144 UTC"
+  Sender=:1.11  Destination=org.freedesktop.DBus  Path=/org/freedesktop/DBus  Interface=org.freedesktop.DBus  Member=GetNameOwner
+  UniqueName=:1.11
+  MESSAGE "s" {
+          STRING "dev.glazkov.DBusIssue562";
+  };
+
+‣ Type=error  Endian=l  Flags=1  Version=1 Cookie=400  ReplyCookie=7277  Timestamp="Fri 2025-10-17 13:56:37.192171 UTC"
+  Sender=org.freedesktop.DBus  Destination=:1.11
+  ErrorName=org.freedesktop.DBus.Error.NameHasNoOwner  ErrorMessage="Could not get owner of name 'dev.glazkov.DBusIssue562': no such name"
+  MESSAGE "s" {
+          STRING "Could not get owner of name 'dev.glazkov.DBusIssue562': no such name";
+  };
+
+‣ Type=signal  Endian=l  Flags=1  Version=1 Cookie=7278  Timestamp="Fri 2025-10-17 13:56:37.192482 UTC"
+  Sender=:1.11  Path=/org/freedesktop/systemd1  Interface=org.freedesktop.systemd1.Manager  Member=UnitNew
+  UniqueName=:1.11
+  MESSAGE "so" {
+          STRING "dbus-issue-562.service";
+          OBJECT_PATH "/org/freedesktop/systemd1/unit/dbus_2dissue_2d562_2eservice";
+  };
+
+‣ Type=signal  Endian=l  Flags=1  Version=1 Cookie=7279  Timestamp="Fri 2025-10-17 13:56:37.192524 UTC"
+  Sender=:1.11  Path=/org/freedesktop/systemd1  Interface=org.freedesktop.systemd1.Manager  Member=JobNew
+  UniqueName=:1.11
+  MESSAGE "uos" {
+          UINT32 11906;
+          OBJECT_PATH "/org/freedesktop/systemd1/job/11906";
+          STRING "dbus-issue-562.service";
+  };
+
+‣ Type=signal  Endian=l  Flags=1  Version=1 Cookie=7280  Timestamp="Fri 2025-10-17 13:56:37.205145 UTC"
+  Sender=:1.11  Path=/org/freedesktop/systemd1/unit/dbus_2dissue_2d562_2eservice  Interface=org.freedesktop.DBus.Properties  Member=PropertiesChanged
+  UniqueName=:1.11
+  MESSAGE "sa{sv}as" {
+          STRING "org.freedesktop.systemd1.Service";
+          ARRAY "{sv}" {
+                  DICT_ENTRY "sv" {
+                          STRING "MainPID";
+                          VARIANT "u" {
+                                  UINT32 169866;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ControlPID";
+                          VARIANT "u" {
+                                  UINT32 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "StatusText";
+                          VARIANT "s" {
+                                  STRING "";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "StatusErrno";
+                          VARIANT "i" {
+                                  INT32 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "Result";
+                          VARIANT "s" {
+                                  STRING "success";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ReloadResult";
+                          VARIANT "s" {
+                                  STRING "success";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "CleanResult";
+                          VARIANT "s" {
+                                  STRING "success";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "UID";
+                          VARIANT "u" {
+                                  UINT32 4294967295;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "GID";
+                          VARIANT "u" {
+                                  UINT32 4294967295;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "NRestarts";
+                          VARIANT "u" {
+                                  UINT32 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainStartTimestamp";
+                          VARIANT "t" {
+                                  UINT64 1760709397204657;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainStartTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 20309000119;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainExitTimestamp";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainExitTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainPID";
+                          VARIANT "u" {
+                                  UINT32 169866;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainCode";
+                          VARIANT "i" {
+                                  INT32 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainStatus";
+                          VARIANT "i" {
+                                  INT32 0;
+                          };
+                  };
+          };
+          ARRAY "s" {
+                  STRING "ExecCondition";
+                  STRING "ExecConditionEx";
+                  STRING "ExecStartPre";
+                  STRING "ExecStartPreEx";
+                  STRING "ExecStart";
+                  STRING "ExecStartEx";
+                  STRING "ExecStartPost";
+                  STRING "ExecStartPostEx";
+                  STRING "ExecReload";
+                  STRING "ExecReloadEx";
+                  STRING "ExecStop";
+                  STRING "ExecStopEx";
+                  STRING "ExecStopPost";
+                  STRING "ExecStopPostEx";
+          };
+  };
+
+‣ Type=signal  Endian=l  Flags=1  Version=1 Cookie=7281  Timestamp="Fri 2025-10-17 13:56:37.205551 UTC"
+  Sender=:1.11  Path=/org/freedesktop/systemd1/unit/dbus_2dissue_2d562_2eservice  Interface=org.freedesktop.DBus.Properties  Member=PropertiesChanged
+  UniqueName=:1.11
+  MESSAGE "sa{sv}as" {
+          STRING "org.freedesktop.systemd1.Unit";
+          ARRAY "{sv}" {
+                  DICT_ENTRY "sv" {
+                          STRING "ActiveState";
+                          VARIANT "s" {
+                                  STRING "inactive";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "FreezerState";
+                          VARIANT "s" {
+                                  STRING "running";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "SubState";
+                          VARIANT "s" {
+                                  STRING "dead";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "StateChangeTimestamp";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "StateChangeTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "InactiveExitTimestamp";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "InactiveExitTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ActiveEnterTimestamp";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ActiveEnterTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ActiveExitTimestamp";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ActiveExitTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "InactiveEnterTimestamp";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "InactiveEnterTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "Job";
+                          VARIANT "(uo)" {
+                                  STRUCT "uo" {
+                                          UINT32 11906;
+                                          OBJECT_PATH "/org/freedesktop/systemd1/job/11906";
+                                  };
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ConditionResult";
+                          VARIANT "b" {
+                                  BOOLEAN true;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "AssertResult";
+                          VARIANT "b" {
+                                  BOOLEAN true;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ConditionTimestamp";
+                          VARIANT "t" {
+                                  UINT64 1760709397192486;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ConditionTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 20308987948;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "AssertTimestamp";
+                          VARIANT "t" {
+                                  UINT64 1760709397192491;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "AssertTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 20308987953;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "InvocationID";
+                          VARIANT "ay" {
+                                  ARRAY "y" {
+                                          BYTE 137;
+                                          BYTE 195;
+                                          BYTE 135;
+                                          BYTE 70;
+                                          BYTE 220;
+                                          BYTE 152;
+                                          BYTE 72;
+                                          BYTE 70;
+                                          BYTE 157;
+                                          BYTE 206;
+                                          BYTE 103;
+                                          BYTE 181;
+                                          BYTE 40;
+                                          BYTE 93;
+                                          BYTE 48;
+                                          BYTE 31;
+                                  };
+                          };
+                  };
+          };
+          ARRAY "s" {
+                  STRING "Conditions";
+                  STRING "Asserts";
+          };
+  };
+
+‣ Type=signal  Endian=l  Flags=1  Version=1 Cookie=7282  Timestamp="Fri 2025-10-17 13:56:37.206023 UTC"
+  Sender=:1.11  Path=/org/freedesktop/systemd1/unit/dbus_2dissue_2d562_2eservice  Interface=org.freedesktop.DBus.Properties  Member=PropertiesChanged
+  UniqueName=:1.11
+  MESSAGE "sa{sv}as" {
+          STRING "org.freedesktop.systemd1.Service";
+          ARRAY "{sv}" {
+                  DICT_ENTRY "sv" {
+                          STRING "MainPID";
+                          VARIANT "u" {
+                                  UINT32 169866;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ControlPID";
+                          VARIANT "u" {
+                                  UINT32 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "StatusText";
+                          VARIANT "s" {
+                                  STRING "";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "StatusErrno";
+                          VARIANT "i" {
+                                  INT32 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "Result";
+                          VARIANT "s" {
+                                  STRING "success";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ReloadResult";
+                          VARIANT "s" {
+                                  STRING "success";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "CleanResult";
+                          VARIANT "s" {
+                                  STRING "success";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "UID";
+                          VARIANT "u" {
+                                  UINT32 4294967295;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "GID";
+                          VARIANT "u" {
+                                  UINT32 4294967295;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "NRestarts";
+                          VARIANT "u" {
+                                  UINT32 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainStartTimestamp";
+                          VARIANT "t" {
+                                  UINT64 1760709397204657;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainStartTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 20309000119;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainExitTimestamp";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainExitTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainPID";
+                          VARIANT "u" {
+                                  UINT32 169866;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainCode";
+                          VARIANT "i" {
+                                  INT32 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainStatus";
+                          VARIANT "i" {
+                                  INT32 0;
+                          };
+                  };
+          };
+          ARRAY "s" {
+                  STRING "ExecCondition";
+                  STRING "ExecConditionEx";
+                  STRING "ExecStartPre";
+                  STRING "ExecStartPreEx";
+                  STRING "ExecStart";
+                  STRING "ExecStartEx";
+                  STRING "ExecStartPost";
+                  STRING "ExecStartPostEx";
+                  STRING "ExecReload";
+                  STRING "ExecReloadEx";
+                  STRING "ExecStop";
+                  STRING "ExecStopEx";
+                  STRING "ExecStopPost";
+                  STRING "ExecStopPostEx";
+          };
+  };
+
+‣ Type=signal  Endian=l  Flags=1  Version=1 Cookie=7283  Timestamp="Fri 2025-10-17 13:56:37.206421 UTC"
+  Sender=:1.11  Path=/org/freedesktop/systemd1/unit/dbus_2dissue_2d562_2eservice  Interface=org.freedesktop.DBus.Properties  Member=PropertiesChanged
+  UniqueName=:1.11
+  MESSAGE "sa{sv}as" {
+          STRING "org.freedesktop.systemd1.Unit";
+          ARRAY "{sv}" {
+                  DICT_ENTRY "sv" {
+                          STRING "ActiveState";
+                          VARIANT "s" {
+                                  STRING "activating";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "FreezerState";
+                          VARIANT "s" {
+                                  STRING "running";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "SubState";
+                          VARIANT "s" {
+                                  STRING "start";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "StateChangeTimestamp";
+                          VARIANT "t" {
+                                  UINT64 1760709397204959;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "StateChangeTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 20309000422;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "InactiveExitTimestamp";
+                          VARIANT "t" {
+                                  UINT64 1760709397204959;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "InactiveExitTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 20309000422;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ActiveEnterTimestamp";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ActiveEnterTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ActiveExitTimestamp";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ActiveExitTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "InactiveEnterTimestamp";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "InactiveEnterTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "Job";
+                          VARIANT "(uo)" {
+                                  STRUCT "uo" {
+                                          UINT32 11906;
+                                          OBJECT_PATH "/org/freedesktop/systemd1/job/11906";
+                                  };
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ConditionResult";
+                          VARIANT "b" {
+                                  BOOLEAN true;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "AssertResult";
+                          VARIANT "b" {
+                                  BOOLEAN true;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ConditionTimestamp";
+                          VARIANT "t" {
+                                  UINT64 1760709397192486;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ConditionTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 20308987948;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "AssertTimestamp";
+                          VARIANT "t" {
+                                  UINT64 1760709397192491;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "AssertTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 20308987953;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "InvocationID";
+                          VARIANT "ay" {
+                                  ARRAY "y" {
+                                          BYTE 137;
+                                          BYTE 195;
+                                          BYTE 135;
+                                          BYTE 70;
+                                          BYTE 220;
+                                          BYTE 152;
+                                          BYTE 72;
+                                          BYTE 70;
+                                          BYTE 157;
+                                          BYTE 206;
+                                          BYTE 103;
+                                          BYTE 181;
+                                          BYTE 40;
+                                          BYTE 93;
+                                          BYTE 48;
+                                          BYTE 31;
+                                  };
+                          };
+                  };
+          };
+          ARRAY "s" {
+                  STRING "Conditions";
+                  STRING "Asserts";
+          };
+  };
+
+‣ Type=signal  Endian=l  Flags=1  Version=1 Cookie=7284  Timestamp="Fri 2025-10-17 13:56:37.206966 UTC"
+  Sender=:1.11  Path=/org/freedesktop/systemd1/job/11906  Interface=org.freedesktop.DBus.Properties  Member=PropertiesChanged
+  UniqueName=:1.11
+  MESSAGE "sa{sv}as" {
+          STRING "org.freedesktop.systemd1.Job";
+          ARRAY "{sv}" {
+                  DICT_ENTRY "sv" {
+                          STRING "State";
+                          VARIANT "s" {
+                                  STRING "running";
+                          };
+                  };
+          };
+          ARRAY "s" {
+          };
+  };
+
+‣ Type=method_call  Endian=l  Flags=0  Version=1 Cookie=1  Timestamp="Fri 2025-10-17 13:56:37.210383 UTC"
+  Sender=:1.366  Destination=org.freedesktop.DBus  Path=/org/freedesktop/DBus  Interface=org.freedesktop.DBus  Member=Hello
+  UniqueName=:1.366
+  MESSAGE "" {
+  };
+
+‣ Type=method_return  Endian=l  Flags=1  Version=1 Cookie=1  ReplyCookie=1  Timestamp="Fri 2025-10-17 13:56:37.210416 UTC"
+  Sender=org.freedesktop.DBus  Destination=:1.366
+  MESSAGE "s" {
+          STRING ":1.366";
+  };
+
+‣ Type=signal  Endian=l  Flags=1  Version=1 Cookie=312  Timestamp="Fri 2025-10-17 13:56:37.210437 UTC"
+  Sender=org.freedesktop.DBus  Path=/org/freedesktop/DBus  Interface=org.freedesktop.DBus  Member=NameOwnerChanged
+  MESSAGE "sss" {
+          STRING ":1.366";
+          STRING "";
+          STRING ":1.366";
+  };
+
+‣ Type=signal  Endian=l  Flags=1  Version=1 Cookie=2  Timestamp="Fri 2025-10-17 13:56:37.210470 UTC"
+  Sender=org.freedesktop.DBus  Destination=:1.366  Path=/org/freedesktop/DBus  Interface=org.freedesktop.DBus  Member=NameAcquired
+  MESSAGE "s" {
+          STRING ":1.366";
+  };
+
+‣ Type=method_call  Endian=l  Flags=0  Version=1 Cookie=2  Timestamp="Fri 2025-10-17 13:56:37.210851 UTC"
+  Sender=:1.366  Destination=org.freedesktop.DBus  Path=/org/freedesktop/DBus  Interface=org.freedesktop.DBus  Member=RequestName
+  UniqueName=:1.366
+  MESSAGE "su" {
+          STRING "dev.glazkov.DBusIssue562";
+          UINT32 4;
+  };
+
+‣ Type=signal  Endian=l  Flags=1  Version=1 Cookie=401  Timestamp="Fri 2025-10-17 13:56:37.210906 UTC"
+  Sender=org.freedesktop.DBus  Path=/org/freedesktop/DBus  Interface=org.freedesktop.DBus  Member=NameOwnerChanged
+  MESSAGE "sss" {
+          STRING "dev.glazkov.DBusIssue562";
+          STRING "";
+          STRING ":1.366";
+  };
+
+‣ Type=signal  Endian=l  Flags=1  Version=1 Cookie=3  Timestamp="Fri 2025-10-17 13:56:37.210940 UTC"
+  Sender=org.freedesktop.DBus  Destination=:1.366  Path=/org/freedesktop/DBus  Interface=org.freedesktop.DBus  Member=NameAcquired
+  MESSAGE "s" {
+          STRING "dev.glazkov.DBusIssue562";
+  };
+
+‣ Type=method_return  Endian=l  Flags=1  Version=1 Cookie=4  ReplyCookie=2  Timestamp="Fri 2025-10-17 13:56:37.210963 UTC"
+  Sender=org.freedesktop.DBus  Destination=:1.366
+  MESSAGE "u" {
+          UINT32 1;
+  };
+
+‣ Type=signal  Endian=l  Flags=1  Version=1 Cookie=7285  Timestamp="Fri 2025-10-17 13:56:37.211054 UTC"
+  Sender=:1.11  Path=/org/freedesktop/systemd1/unit/dbus_2dissue_2d562_2eservice  Interface=org.freedesktop.DBus.Properties  Member=PropertiesChanged
+  UniqueName=:1.11
+  MESSAGE "sa{sv}as" {
+          STRING "org.freedesktop.systemd1.Service";
+          ARRAY "{sv}" {
+                  DICT_ENTRY "sv" {
+                          STRING "MainPID";
+                          VARIANT "u" {
+                                  UINT32 169866;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ControlPID";
+                          VARIANT "u" {
+                                  UINT32 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "StatusText";
+                          VARIANT "s" {
+                                  STRING "";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "StatusErrno";
+                          VARIANT "i" {
+                                  INT32 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "Result";
+                          VARIANT "s" {
+                                  STRING "success";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ReloadResult";
+                          VARIANT "s" {
+                                  STRING "success";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "CleanResult";
+                          VARIANT "s" {
+                                  STRING "success";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "UID";
+                          VARIANT "u" {
+                                  UINT32 4294967295;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "GID";
+                          VARIANT "u" {
+                                  UINT32 4294967295;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "NRestarts";
+                          VARIANT "u" {
+                                  UINT32 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainStartTimestamp";
+                          VARIANT "t" {
+                                  UINT64 1760709397204657;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainStartTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 20309000119;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainExitTimestamp";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainExitTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainPID";
+                          VARIANT "u" {
+                                  UINT32 169866;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainCode";
+                          VARIANT "i" {
+                                  INT32 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainStatus";
+                          VARIANT "i" {
+                                  INT32 0;
+                          };
+                  };
+          };
+          ARRAY "s" {
+                  STRING "ExecCondition";
+                  STRING "ExecConditionEx";
+                  STRING "ExecStartPre";
+                  STRING "ExecStartPreEx";
+                  STRING "ExecStart";
+                  STRING "ExecStartEx";
+                  STRING "ExecStartPost";
+                  STRING "ExecStartPostEx";
+                  STRING "ExecReload";
+                  STRING "ExecReloadEx";
+                  STRING "ExecStop";
+                  STRING "ExecStopEx";
+                  STRING "ExecStopPost";
+                  STRING "ExecStopPostEx";
+          };
+  };
+
+‣ Type=signal  Endian=l  Flags=1  Version=1 Cookie=7286  Timestamp="Fri 2025-10-17 13:56:37.211436 UTC"
+  Sender=:1.11  Path=/org/freedesktop/systemd1/unit/dbus_2dissue_2d562_2eservice  Interface=org.freedesktop.DBus.Properties  Member=PropertiesChanged
+  UniqueName=:1.11
+  MESSAGE "sa{sv}as" {
+          STRING "org.freedesktop.systemd1.Unit";
+          ARRAY "{sv}" {
+                  DICT_ENTRY "sv" {
+                          STRING "ActiveState";
+                          VARIANT "s" {
+                                  STRING "active";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "FreezerState";
+                          VARIANT "s" {
+                                  STRING "running";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "SubState";
+                          VARIANT "s" {
+                                  STRING "running";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "StateChangeTimestamp";
+                          VARIANT "t" {
+                                  UINT64 1760709397210858;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "StateChangeTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 20309006320;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "InactiveExitTimestamp";
+                          VARIANT "t" {
+                                  UINT64 1760709397204959;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "InactiveExitTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 20309000422;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ActiveEnterTimestamp";
+                          VARIANT "t" {
+                                  UINT64 1760709397210858;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ActiveEnterTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 20309006320;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ActiveExitTimestamp";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ActiveExitTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "InactiveEnterTimestamp";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "InactiveEnterTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "Job";
+                          VARIANT "(uo)" {
+                                  STRUCT "uo" {
+                                          UINT32 11906;
+                                          OBJECT_PATH "/org/freedesktop/systemd1/job/11906";
+                                  };
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ConditionResult";
+                          VARIANT "b" {
+                                  BOOLEAN true;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "AssertResult";
+                          VARIANT "b" {
+                                  BOOLEAN true;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ConditionTimestamp";
+                          VARIANT "t" {
+                                  UINT64 1760709397192486;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ConditionTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 20308987948;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "AssertTimestamp";
+                          VARIANT "t" {
+                                  UINT64 1760709397192491;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "AssertTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 20308987953;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "InvocationID";
+                          VARIANT "ay" {
+                                  ARRAY "y" {
+                                          BYTE 137;
+                                          BYTE 195;
+                                          BYTE 135;
+                                          BYTE 70;
+                                          BYTE 220;
+                                          BYTE 152;
+                                          BYTE 72;
+                                          BYTE 70;
+                                          BYTE 157;
+                                          BYTE 206;
+                                          BYTE 103;
+                                          BYTE 181;
+                                          BYTE 40;
+                                          BYTE 93;
+                                          BYTE 48;
+                                          BYTE 31;
+                                  };
+                          };
+                  };
+          };
+          ARRAY "s" {
+                  STRING "Conditions";
+                  STRING "Asserts";
+          };
+  };
+
+‣ Type=signal  Endian=l  Flags=1  Version=1 Cookie=7287  Timestamp="Fri 2025-10-17 13:56:37.211829 UTC"
+  Sender=:1.11  Path=/org/freedesktop/systemd1  Interface=org.freedesktop.systemd1.Manager  Member=JobRemoved
+  UniqueName=:1.11
+  MESSAGE "uoss" {
+          UINT32 11906;
+          OBJECT_PATH "/org/freedesktop/systemd1/job/11906";
+          STRING "dbus-issue-562.service";
+          STRING "done";
+  };
+
+‣ Type=signal  Endian=l  Flags=1  Version=1 Cookie=7288  Timestamp="Fri 2025-10-17 13:56:37.211847 UTC"
+  Sender=:1.11  Path=/org/freedesktop/systemd1/unit/dbus_2dissue_2d562_2eservice  Interface=org.freedesktop.DBus.Properties  Member=PropertiesChanged
+  UniqueName=:1.11
+  MESSAGE "sa{sv}as" {
+          STRING "org.freedesktop.systemd1.Service";
+          ARRAY "{sv}" {
+                  DICT_ENTRY "sv" {
+                          STRING "MainPID";
+                          VARIANT "u" {
+                                  UINT32 169866;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ControlPID";
+                          VARIANT "u" {
+                                  UINT32 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "StatusText";
+                          VARIANT "s" {
+                                  STRING "";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "StatusErrno";
+                          VARIANT "i" {
+                                  INT32 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "Result";
+                          VARIANT "s" {
+                                  STRING "success";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ReloadResult";
+                          VARIANT "s" {
+                                  STRING "success";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "CleanResult";
+                          VARIANT "s" {
+                                  STRING "success";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "UID";
+                          VARIANT "u" {
+                                  UINT32 4294967295;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "GID";
+                          VARIANT "u" {
+                                  UINT32 4294967295;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "NRestarts";
+                          VARIANT "u" {
+                                  UINT32 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainStartTimestamp";
+                          VARIANT "t" {
+                                  UINT64 1760709397204657;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainStartTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 20309000119;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainExitTimestamp";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainExitTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainPID";
+                          VARIANT "u" {
+                                  UINT32 169866;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainCode";
+                          VARIANT "i" {
+                                  INT32 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ExecMainStatus";
+                          VARIANT "i" {
+                                  INT32 0;
+                          };
+                  };
+          };
+          ARRAY "s" {
+                  STRING "ExecCondition";
+                  STRING "ExecConditionEx";
+                  STRING "ExecStartPre";
+                  STRING "ExecStartPreEx";
+                  STRING "ExecStart";
+                  STRING "ExecStartEx";
+                  STRING "ExecStartPost";
+                  STRING "ExecStartPostEx";
+                  STRING "ExecReload";
+                  STRING "ExecReloadEx";
+                  STRING "ExecStop";
+                  STRING "ExecStopEx";
+                  STRING "ExecStopPost";
+                  STRING "ExecStopPostEx";
+          };
+  };
+
+‣ Type=signal  Endian=l  Flags=1  Version=1 Cookie=7289  Timestamp="Fri 2025-10-17 13:56:37.212062 UTC"
+  Sender=:1.11  Path=/org/freedesktop/systemd1/unit/dbus_2dissue_2d562_2eservice  Interface=org.freedesktop.DBus.Properties  Member=PropertiesChanged
+  UniqueName=:1.11
+  MESSAGE "sa{sv}as" {
+          STRING "org.freedesktop.systemd1.Unit";
+          ARRAY "{sv}" {
+                  DICT_ENTRY "sv" {
+                          STRING "ActiveState";
+                          VARIANT "s" {
+                                  STRING "active";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "FreezerState";
+                          VARIANT "s" {
+                                  STRING "running";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "SubState";
+                          VARIANT "s" {
+                                  STRING "running";
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "StateChangeTimestamp";
+                          VARIANT "t" {
+                                  UINT64 1760709397210858;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "StateChangeTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 20309006320;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "InactiveExitTimestamp";
+                          VARIANT "t" {
+                                  UINT64 1760709397204959;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "InactiveExitTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 20309000422;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ActiveEnterTimestamp";
+                          VARIANT "t" {
+                                  UINT64 1760709397210858;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ActiveEnterTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 20309006320;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ActiveExitTimestamp";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ActiveExitTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "InactiveEnterTimestamp";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "InactiveEnterTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 0;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "Job";
+                          VARIANT "(uo)" {
+                                  STRUCT "uo" {
+                                          UINT32 0;
+                                          OBJECT_PATH "/";
+                                  };
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ConditionResult";
+                          VARIANT "b" {
+                                  BOOLEAN true;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "AssertResult";
+                          VARIANT "b" {
+                                  BOOLEAN true;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ConditionTimestamp";
+                          VARIANT "t" {
+                                  UINT64 1760709397192486;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "ConditionTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 20308987948;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "AssertTimestamp";
+                          VARIANT "t" {
+                                  UINT64 1760709397192491;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "AssertTimestampMonotonic";
+                          VARIANT "t" {
+                                  UINT64 20308987953;
+                          };
+                  };
+                  DICT_ENTRY "sv" {
+                          STRING "InvocationID";
+                          VARIANT "ay" {
+                                  ARRAY "y" {
+                                          BYTE 137;
+                                          BYTE 195;
+                                          BYTE 135;
+                                          BYTE 70;
+                                          BYTE 220;
+                                          BYTE 152;
+                                          BYTE 72;
+                                          BYTE 70;
+                                          BYTE 157;
+                                          BYTE 206;
+                                          BYTE 103;
+                                          BYTE 181;
+                                          BYTE 40;
+                                          BYTE 93;
+                                          BYTE 48;
+                                          BYTE 31;
+                                  };
+                          };
+                  };
+          };
+          ARRAY "s" {
+                  STRING "Conditions";
+                  STRING "Asserts";
+          };
+  };
+
+‣ Type=method_call  Endian=l  Flags=0  Version=1 Cookie=1011  Timestamp="Fri 2025-10-17 13:56:38.214041 UTC"
+  Sender=:1.121  Destination=org.freedesktop.DBus  Path=/org/freedesktop/DBus  Interface=org.freedesktop.DBus  Member=ListNames
+  UniqueName=:1.121
+  MESSAGE "" {
+  };
+
+‣ Type=method_return  Endian=l  Flags=1  Version=1 Cookie=1195  ReplyCookie=1011  Timestamp="Fri 2025-10-17 13:56:38.214103 UTC"
+  Sender=org.freedesktop.DBus  Destination=:1.121
+  MESSAGE "as" {
+          ARRAY "s" {
+                  STRING "org.freedesktop.DBus";
+                  STRING ":1.128";
+                  STRING ":1.106";
+                  STRING ":1.7";
+                  STRING ":1.107";
+                  STRING "org.freedesktop.timesync1";
+                  STRING ":1.8";
+                  STRING ":1.207";
+                  STRING "org.freedesktop.NetworkManager.fortisslvpn.Connection_4";
+                  STRING ":1.108";
+                  STRING ":1.9";
+                  STRING ":1.208";
+                  STRING ":1.109";
+                  STRING ":1.209";
+                  STRING "org.freedesktop.systemd1";
+                  STRING "org.freedesktop.ModemManager1";
+                  STRING "org.freedesktop.NetworkManager";
+                  STRING "org.freedesktop.oom1";
+                  STRING "net.hadess.PowerProfiles";
+                  STRING "org.freedesktop.resolve1";
+                  STRING "org.freedesktop.RealtimeKit1";
+                  STRING "org.freedesktop.Accounts";
+                  STRING ":1.80";
+                  STRING ":1.81";
+                  STRING ":1.83";
+                  STRING ":1.192";
+                  STRING ":1.193";
+                  STRING ":1.85";
+                  STRING ":1.194";
+                  STRING "org.freedesktop.PolicyKit1";
+                  STRING ":1.65";
+                  STRING "org.bluez";
+                  STRING ":1.21";
+                  STRING ":1.66";
+                  STRING ":1.22";
+                  STRING ":1.89";
+                  STRING ":1.67";
+                  STRING "org.freedesktop.PackageKit";
+                  STRING ":1.45";
+                  STRING ":1.23";
+                  STRING ":1.154";
+                  STRING ":1.110";
+                  STRING ":1.68";
+                  STRING ":1.46";
+                  STRING "net.hadess.SwitcherooControl";
+                  STRING ":1.210";
+                  STRING ":1.155";
+                  STRING ":1.111";
+                  STRING ":1.112";
+                  STRING ":1.26";
+                  STRING "com.redhat.NewPrinterNotification";
+                  STRING ":1.213";
+                  STRING ":1.114";
+                  STRING ":1.115";
+                  STRING ":1.216";
+                  STRING ":1.117";
+                  STRING "com.redhat.PrinterDriversInstaller";
+                  STRING ":1.118";
+                  STRING ":1.119";
+                  STRING "org.gnome.DisplayManager";
+                  STRING "org.freedesktop.Avahi";
+                  STRING "dev.glazkov.DBusIssue562";
+                  STRING "org.freedesktop.UDisks2";
+                  STRING "fi.w1.wpa_supplicant1";
+                  STRING ":1.91";
+                  STRING "org.freedesktop.fwupd";
+                  STRING ":1.92";
+                  STRING "org.freedesktop.login1";
+                  STRING ":1.93";
+                  STRING "org.freedesktop.ColorManager";
+                  STRING ":1.95";
+                  STRING ":1.73";
+                  STRING ":1.96";
+                  STRING ":1.97";
+                  STRING ":1.75";
+                  STRING ":1.98";
+                  STRING ":1.10";
+                  STRING ":1.32";
+                  STRING ":1.99";
+                  STRING ":1.11";
+                  STRING ":1.120";
+                  STRING ":1.78";
+                  STRING "org.freedesktop.UPower";
+                  STRING ":1.12";
+                  STRING ":1.121";
+                  STRING ":1.79";
+                  STRING ":1.57";
+                  STRING ":1.0";
+                  STRING ":1.13";
+                  STRING ":1.100";
+                  STRING ":1.1";
+                  STRING ":1.2";
+                  STRING ":1.15";
+                  STRING ":1.366";
+                  STRING ":1.16";
+                  STRING ":1.103";
+                  STRING ":1.4";
+                  STRING ":1.17";
+                  STRING ":1.104";
+                  STRING ":1.5";
+                  STRING ":1.18";
+                  STRING ":1.127";
+                  STRING ":1.105";
+                  STRING ":1.6";
+          };
+  };
+
+‣ Type=method_call  Endian=l  Flags=0  Version=1 Cookie=1012  Timestamp="Fri 2025-10-17 13:56:38.214998 UTC"
+  Sender=:1.121  Destination=org.freedesktop.DBus  Path=/org/freedesktop/DBus  Interface=org.freedesktop.DBus  Member=ListActivatableNames
+  UniqueName=:1.121
+  MESSAGE "" {
+  };
+
+‣ Type=method_return  Endian=l  Flags=1  Version=1 Cookie=1196  ReplyCookie=1012  Timestamp="Fri 2025-10-17 13:56:38.215021 UTC"
+  Sender=org.freedesktop.DBus  Destination=:1.121
+  MESSAGE "as" {
+          ARRAY "s" {
+                  STRING "org.freedesktop.DBus";
+                  STRING "org.freedesktop.fwupd";
+                  STRING "org.freedesktop.login1";
+                  STRING "org.freedesktop.GeoClue2";
+                  STRING "com.ubuntu.LanguageSelector";
+                  STRING "org.freedesktop.timesync1";
+                  STRING "com.hp.hplip";
+                  STRING "org.freedesktop.Flatpak.SystemHelper";
+                  STRING "org.freedesktop.ColorManager";
+                  STRING "org.freedesktop.systemd1";
+                  STRING "com.ubuntu.SoftwareProperties";
+                  STRING "org.freedesktop.PolicyKit1";
+                  STRING "org.freedesktop.Avahi";
+                  STRING "org.freedesktop.thermald";
+                  STRING "org.freedesktop.ModemManager1";
+                  STRING "io.netplan.Netplan";
+                  STRING "org.freedesktop.hostname1";
+                  STRING "org.freedesktop.nm_priv_helper";
+                  STRING "org.debian.apt";
+                  STRING "org.bluez";
+                  STRING "dev.glazkov.DBusIssue562";
+                  STRING "net.reactivated.Fprint";
+                  STRING "org.freedesktop.PackageKit";
+                  STRING "org.freedesktop.UPower";
+                  STRING "org.freedesktop.UDisks2";
+                  STRING "org.freedesktop.network1";
+                  STRING "net.hadess.PowerProfiles";
+                  STRING "org.freedesktop.oom1";
+                  STRING "com.canonical.UbuntuAdvantage";
+                  STRING "org.freedesktop.resolve1";
+                  STRING "org.freedesktop.bolt";
+                  STRING "org.freedesktop.Accounts";
+                  STRING "org.freedesktop.RealtimeKit1";
+                  STRING "org.freedesktop.timedate1";
+                  STRING "com.ubuntu.WhoopsiePreferences";
+                  STRING "fi.w1.wpa_supplicant1";
+                  STRING "org.freedesktop.nm_dispatcher";
+                  STRING "org.freedesktop.locale1";
+                  STRING "org.opensuse.CupsPkHelper.Mechanism";
+          };
+  };

@@ -1,0 +1,5 @@
+[D-BUS Service]
+Name=dev.glazkov.DBusIssue562
+Exec=/bin/false
+User=root
+SystemdService=dbus-issue-562.service

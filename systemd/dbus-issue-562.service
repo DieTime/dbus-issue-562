@@ -1,0 +1,8 @@
+[Unit]
+Description=Reproducer for dbus issue #562
+Requires=dbus.socket
+
+[Service]
+Type=dbus
+BusName=dev.glazkov.DBusIssue562
+ExecStart=/usr/bin/dbus-issue-562
